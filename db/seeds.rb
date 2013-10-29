@@ -7,12 +7,12 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 admin = User.new(
-  email: 'oialvarez@gmail.com',
-  first_name: 'Oscar', 
-  last_name: 'Alvarez', 
+  email: 'example@mail.com',
+  first_name: 'First', 
+  last_name: 'last', 
   roles: ['admin'], 
-  password: 'abc123',
-  password_confirmation: 'abc123'
+  password: 'abcd1234',
+  password_confirmation: 'abcd1234'
 )
 admin.skip_confirmation!
 admin.save!
